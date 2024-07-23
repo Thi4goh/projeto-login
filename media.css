@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    body{
+        background-image: linear-gradient(45deg,#821DE0,#781de0, #411de0, #1DB3E0);
+    }
+    main{
+        margin-top: 20vh;
+        display: flex;
+        width: 630px;
+        height: 280px;
+    }
+    #form{
+        border-radius: 20px;
+    }
+    main img{
+        border-radius: 20px 0px 0px 20px;
+    }
+   
+}
+@media screen and (min-width:992px) {
+    body{
+        background-image: linear-gradient(120deg,#821DE0,#781de0, #411de0, #1DB3E0);
+    }
+    main{
+        margin-top: 20vh;
+        
+    }
+    
+    main img{
+        border-radius: 20px 0px 0px 20px;
+        
+    }
+}

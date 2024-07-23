@@ -1,0 +1,89 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    background-color: rgb(82, 26, 134);
+}
+main{
+    background-color: white;
+    width: 250px;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 20px;
+    
+}
+main img{
+    border-radius: 20px 20px 0px 0px;
+    width: 250px;
+}
+#form{
+    padding:10px; 
+    
+}
+#form h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#form p{
+    font-size: .8em;
+    text-align: justify;
+}
+span{
+    color: white;
+}
+#container-email, #container-pass{
+    border-radius: 5px;
+    padding: 2px;
+    display: flex;
+    background-color: rgb(82, 26, 134);
+    margin: 5px 0px;
+}
+#container-email label, #container-pass label{
+    padding: 5px;
+}
+#pass,#email{
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 100%;
+     
+}
+#buttons input{
+    border: 1px solid #01545F;
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#buttons input:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#entrar{
+    color: white;
+    background-color: #01545F;
+}
+#entrar:hover{
+    background-color: #0b7485;
+}
+#esqueci{
+    color: #01545F;
+    background-color: white;
+}
+#esqueci:hover{
+    background-color: rgb(233, 233, 233);
+    
+}
+#refresh{
+    color: #01545F;
+}
+
+
